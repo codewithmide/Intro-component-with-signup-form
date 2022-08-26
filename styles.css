@@ -45,6 +45,7 @@ h1 {
 .heading-paragraph {
     margin-top: 1rem;
     width: 80%;
+    font-size: 15px;
 }
 
 .right {
@@ -83,15 +84,16 @@ span {
 
 form {
     background-color: #fff;
-    height: 90%;
+    height: 95%;
     width: 100%;
     padding: 40px;
     border-radius: 8px;
+    position: relative;
 }
 
 input {
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     border-radius: 5px;
     outline: none;
     border: 1px solid hsl(246, 25%, 77%);
@@ -128,6 +130,55 @@ button {
     color: hsl(0, 100%, 74%);
     font-weight: 700;
     text-decoration: none;
+}
+
+img {
+    position: absolute;
+    left: 82%;
+}
+
+form > .first {
+    top: 12%;
+}
+
+form > .last {
+    top: 30%;
+}
+
+form > .email {
+    top: 47%;
+}
+
+form > .password {
+    top: 64%;
+}
+
+form > .p-hide {
+    color: red;
+    font-size: 11px;
+    position: absolute;
+    margin-bottom: 1rem;
+    left: 58%;
+}
+
+form > .p-first {
+    top: 21%;
+}
+
+form > .p-last {
+    top: 38%;
+}
+
+form > .p-email {
+    top: 55%;
+}
+
+form > .p-password {
+    top: 72%;
+}
+
+.hide {
+    display: none;
 }
 
 .attribution {

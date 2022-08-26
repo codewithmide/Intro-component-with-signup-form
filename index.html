@@ -29,9 +29,20 @@
     
       <form action="get">
         <input type="text" name="Firstname" id="firstname" placeholder="First Name"/>
+        <img src="./images/icon-error.svg" alt="error" class="hide first">
+        <p class="p-hide p-first hide"><i>First Name cannot be empty</i></p>
+
         <input type="text" name="Lastname" id="lastname" placeholder="Last Name"/>
+        <img src="./images/icon-error.svg" alt="error" class="hide last">
+        <p class="p-hide p-last hide"><i>Last Name cannot be empty</i></p>
+
         <input type="email" name="Email" id="email" placeholder="Email Address"/>
+        <img src="./images/icon-error.svg" alt="error" class="hide email">
+        <p class="p-hide p-email hide"><i>Looks like this is not an email</i></p>
+
         <input type="password" name="Password" id="password" placeholder="Password"/>
+        <img src="./images/icon-error.svg" alt="error" class="hide password">
+        <p class="p-hide p-password hide"><i>Password cannot be empty</i></p>
         <button>
           Claim your free trial
         </button>
