@@ -12,6 +12,8 @@ body {
 	color: #fff;
 	font-family: 'Poppins', sans-serif;
 	min-height: 100vh;
+	height: 100vh;
+	width: 100vw;
 }
 
 .container {
@@ -23,8 +25,8 @@ body {
 	align-items: center;
 	justify-content: center;
 	height: 100%;
-	width: 90%;
-	padding: 50px 100px;
+	width: 100%;
+	padding: 50px 150px;
 }
 
 .left {
@@ -184,11 +186,7 @@ small a {
     color: hsl(228, 45%, 44%);
 }
 
-@media screen and (max-width: 768px) {
-	body {
-		height: 100vh;
-		width: 100%;
-	}
+@media screen and (max-width: 600px) {
 
 	.container {
 		display: flex;
@@ -201,6 +199,7 @@ small a {
 	.left {
 		width: 100%;
 		height: fit-content;
+		margin-bottom: 1rem;
 	}
 
 	.right {
@@ -217,11 +216,15 @@ small a {
 
 	p {
 		text-align: center;
-		font-size: 13px;
+		font-size: 12px;
 	}
 
 	form {
 		height: 100%;
 		padding: 20px;
+	}
+
+	input{
+		font-size: 12px;
 	}
 }
